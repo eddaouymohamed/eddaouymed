@@ -1,0 +1,46 @@
+@media (max-width:767px) {
+    .desktop-nav {
+        display: none;
+    }
+    #profile {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .section__text-container {
+        text-align: center;
+    }
+    .btn-conatiner {
+        justify-content: center;
+    }
+    .socials-container {
+        justify-content: center;
+    }
+    .section__about-container {
+        flex-direction: column;
+    }
+    .about__pic-container {
+        display: none;
+    }
+    .education-container {
+        max-width: 400px;
+        margin: 0px auto;
+    }
+    .experience-container>div {
+        flex-basis: 51%;
+    }
+    footer .nav-links {
+        gap: 0.6rem;
+    }
+}
+
+@media (min-width:768px) {
+    .mobile-nav {
+        display: none;
+    }
+    .experience-container>div>div {
+        height: calc(100% - 4.9rem);
+    }
+    /* .contact-form {
+        width: 60%;
+    } */
+}
